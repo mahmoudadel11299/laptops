@@ -1,0 +1,91 @@
+﻿@model UserRoleModel
+
+
+<div class="content-wrapper">
+    <div class="page-header">
+        <h3 class="page-title"> Form elements </h3>
+        <nav aria-label="breadcrumb">
+            <ol class="breadcrumb">
+                <li class="breadcrumb-item"><a href="#">Forms</a></li>
+                <li class="breadcrumb-item active" aria-current="page">Form elements</li>
+            </ol>
+        </nav>
+    </div>
+    <form class="forms-sample" method="post" enctype="multipart/form-data"
+          asp-area="admin" asp-controller="Users" asp-action="CreateUser" role="form">
+        <div class="row">
+
+            <div class="col-md-6 grid-margin stretch-card">
+                <div class="card">
+                    <div class="card-body">
+                        <h4 class="card-title">Default form</h4>
+                        <p class="card-description"> Basic form layout </p>
+
+                        <input type="hidden" asp-for="UserId" />
+                        <div class="form-group">
+                            <label for="exampleInputUsername1">RoleName</label>
+                            <select class="form-control" asp-for="RoleId" asp-items="@(new SelectList(ViewBag.role, "Id", "Name"))"></select>
+                        </div>
+
+                        <div class="col-md-6">
+                            <label for="email">First Name</label>
+                            <input asp-for="FirstName"
+                                   type="text" class="form-control" id="fname" placeholder="First Name"
+                                   required="">
+                            <span asp-validation-for="FirstName"></span>
+                        </div>
+                        <div class="col-md-6">
+                            <label for="email">LastName</label>
+                            <input asp-for="LastName"
+                                   type="text" class="form-control" id="fname" placeholder="LastName"
+                                   required="">
+                            <span asp-validation-for="LastName"></span>
+                        </div>
+                        <div class="col-md-6">
+                            <label for="email">Email</label>
+                            <input asp-for="Email"
+                                   type="email" class="form-control" id="fname" placeholder="Email"
+                                   required="">
+                            <span asp-validation-for="Email"></span>
+                        </div>
+                        <div class="col-md-6">
+                            <label for="email">Password</label>
+                            <input asp-for="Password"
+                                   type="password" class="form-control" id="fname" placeholder="Password"
+                                   required="">
+                            <span asp-validation-for="Password"></span>
+                        </div>
+
+
+                        <button type="submit" formmethod="post" class="btn btn-gradient-primary me-2">Save</button>
+                        <button class="btn btn-light">New</button>
+
+                    </div>
+                </div>
+            </div>
+
+
+
+
+        </div>
+    </form>
+</div>
+<!--Section ends-->
+@section Scripts
+{
+    <script>
+        var Upload = {
+            UploadDefaultImg: function(e) {
+                const file = e.target.files[0];
+                const reader = new FileReader();
+                reader.onloadend = () => {
+                    CourseMediaImgName = file.name;
+                    CourseMediaImgBase64 = reader.result.slice(reader.result.indexOf('base64,') + 7);
+                    $("#tbImgName").html(file.name)
+                    $("#tbImgSrc").html(`<img class="thumbnail" src = "${reader.result}"  style = "width: 200px;height: 300px;border-radius: 5px;border: 1px solid #d9d9d9;padding: 1px;" />`)
+                };
+                reader.readAsDataURL(file);
+            }
+        }
+    </script>
+}

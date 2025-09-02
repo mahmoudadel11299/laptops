@@ -1,0 +1,17 @@
+G:\LapShop2\LapShop\Bl\bin\Debug\net8.0\Bl.deps.json
+G:\LapShop2\LapShop\Bl\bin\Debug\net8.0\Bl.runtimeconfig.json
+G:\LapShop2\LapShop\Bl\bin\Debug\net8.0\Bl.dll
+G:\LapShop2\LapShop\Bl\bin\Debug\net8.0\Bl.pdb
+G:\LapShop2\LapShop\Bl\bin\Debug\net8.0\Domains.dll
+G:\LapShop2\LapShop\Bl\bin\Debug\net8.0\Domains.pdb
+G:\LapShop2\LapShop\Bl\obj\Debug\net8.0\Bl.csproj.AssemblyReference.cache
+G:\LapShop2\LapShop\Bl\obj\Debug\net8.0\Bl.GeneratedMSBuildEditorConfig.editorconfig
+G:\LapShop2\LapShop\Bl\obj\Debug\net8.0\Bl.AssemblyInfoInputs.cache
+G:\LapShop2\LapShop\Bl\obj\Debug\net8.0\Bl.AssemblyInfo.cs
+G:\LapShop2\LapShop\Bl\obj\Debug\net8.0\Bl.csproj.CoreCompileInputs.cache
+G:\LapShop2\LapShop\Bl\obj\Debug\net8.0\Bl.csproj.Up2Date
+G:\LapShop2\LapShop\Bl\obj\Debug\net8.0\Bl.dll
+G:\LapShop2\LapShop\Bl\obj\Debug\net8.0\refint\Bl.dll
+G:\LapShop2\LapShop\Bl\obj\Debug\net8.0\Bl.pdb
+G:\LapShop2\LapShop\Bl\obj\Debug\net8.0\Bl.genruntimeconfig.cache
+G:\LapShop2\LapShop\Bl\obj\Debug\net8.0\ref\Bl.dll

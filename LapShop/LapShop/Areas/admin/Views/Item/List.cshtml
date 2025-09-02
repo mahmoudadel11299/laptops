@@ -1,0 +1,43 @@
+﻿@model List<VwItemCategory>
+<div class="col-lg-6 grid-margin stretch-card">
+    <div class="card">
+        <div class="card-body">
+            <h4 class="card-title">Basic Table</h4>
+            <p class="card-description">
+                Add class <code>.table</code>
+            </p>
+            <a href="/admin/Item/Edite">New</a>
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th>itemname</th>
+                        <th>categoryname</th>
+                        <th>SalesPrice</th>
+                        <th>PurchacePrice</th>
+                        <th>Edite</th>
+                        <th>Delete</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var item in Model)
+                    {
+                        <tr>
+                            <td>@item.itemname</td>
+                            <td>@item.categoryname</td>
+                            <td>@item.SalesPrice</td>
+                            <td>@item.PurchacePrice</td>
+                            <td>
+                                <a asp-controller="Item" asp-action="Edite" asp-route-id="@item.itemid">Edite</a>
+                            </td>
+                            <td>
+                                <a asp-controller="Item" asp-action="Delete" asp-route-id="@item.itemid">Delete</a>
+                            </td>
+                        </tr>
+                    }
+                  
+                 
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>

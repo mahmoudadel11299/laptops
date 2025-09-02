@@ -1,0 +1,109 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "G:\\LapShop2\\LapShop\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{57E2D9AF-51DC-43DE-BD19-ACC342660C95}|LapShop\\LapShop.csproj|g:\\lapshop2\\lapshop\\lapshop\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{57E2D9AF-51DC-43DE-BD19-ACC342660C95}|LapShop\\LapShop.csproj|solutionrelative:lapshop\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{57E2D9AF-51DC-43DE-BD19-ACC342660C95}|LapShop\\LapShop.csproj|g:\\lapshop2\\lapshop\\lapshop\\areas\\admin\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{57E2D9AF-51DC-43DE-BD19-ACC342660C95}|LapShop\\LapShop.csproj|solutionrelative:lapshop\\areas\\admin\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{57E2D9AF-51DC-43DE-BD19-ACC342660C95}|LapShop\\LapShop.csproj|g:\\lapshop2\\lapshop\\lapshop\\areas\\admin\\views\\users\\userlist.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{57E2D9AF-51DC-43DE-BD19-ACC342660C95}|LapShop\\LapShop.csproj|solutionrelative:lapshop\\areas\\admin\\views\\users\\userlist.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{57E2D9AF-51DC-43DE-BD19-ACC342660C95}|LapShop\\LapShop.csproj|g:\\lapshop2\\lapshop\\lapshop\\areas\\admin\\views\\users\\createuser.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{57E2D9AF-51DC-43DE-BD19-ACC342660C95}|LapShop\\LapShop.csproj|solutionrelative:lapshop\\areas\\admin\\views\\users\\createuser.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{57E2D9AF-51DC-43DE-BD19-ACC342660C95}|LapShop\\LapShop.csproj|g:\\lapshop2\\lapshop\\lapshop\\models\\userrolemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{57E2D9AF-51DC-43DE-BD19-ACC342660C95}|LapShop\\LapShop.csproj|solutionrelative:lapshop\\models\\userrolemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "G:\\LapShop2\\LapShop\\LapShop\\Program.cs",
+              "RelativeDocumentMoniker": "LapShop\\Program.cs",
+              "ToolTip": "G:\\LapShop2\\LapShop\\LapShop\\Program.cs",
+              "RelativeToolTip": "LapShop\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-02T17:38:43.974Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "UsersController.cs",
+              "DocumentMoniker": "G:\\LapShop2\\LapShop\\LapShop\\Areas\\admin\\Controllers\\UsersController.cs",
+              "RelativeDocumentMoniker": "LapShop\\Areas\\admin\\Controllers\\UsersController.cs",
+              "ToolTip": "G:\\LapShop2\\LapShop\\LapShop\\Areas\\admin\\Controllers\\UsersController.cs",
+              "RelativeToolTip": "LapShop\\Areas\\admin\\Controllers\\UsersController.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAAABYAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-01T14:51:42.132Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "UserRoleModel.cs",
+              "DocumentMoniker": "G:\\LapShop2\\LapShop\\LapShop\\Models\\UserRoleModel.cs",
+              "RelativeDocumentMoniker": "LapShop\\Models\\UserRoleModel.cs",
+              "ToolTip": "G:\\LapShop2\\LapShop\\LapShop\\Models\\UserRoleModel.cs",
+              "RelativeToolTip": "LapShop\\Models\\UserRoleModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-01T13:25:48.368Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Userlist.cshtml",
+              "DocumentMoniker": "G:\\LapShop2\\LapShop\\LapShop\\Areas\\admin\\Views\\Users\\Userlist.cshtml",
+              "RelativeDocumentMoniker": "LapShop\\Areas\\admin\\Views\\Users\\Userlist.cshtml",
+              "ToolTip": "G:\\LapShop2\\LapShop\\LapShop\\Areas\\admin\\Views\\Users\\Userlist.cshtml",
+              "RelativeToolTip": "LapShop\\Areas\\admin\\Views\\Users\\Userlist.cshtml",
+              "ViewState": "AgIAABYAAAAAAAAAAAAAACkAAABMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-01T13:19:19.962Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CreateUser.cshtml",
+              "DocumentMoniker": "G:\\LapShop2\\LapShop\\LapShop\\Areas\\admin\\Views\\Users\\CreateUser.cshtml",
+              "RelativeDocumentMoniker": "LapShop\\Areas\\admin\\Views\\Users\\CreateUser.cshtml",
+              "ToolTip": "G:\\LapShop2\\LapShop\\LapShop\\Areas\\admin\\Views\\Users\\CreateUser.cshtml",
+              "RelativeToolTip": "LapShop\\Areas\\admin\\Views\\Users\\CreateUser.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-01T13:19:17.402Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

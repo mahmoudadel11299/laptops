@@ -1,0 +1,38 @@
+﻿<div class="col-lg-6 grid-margin stretch-card">
+    <div class="card">
+        <div class="card-body">
+            <h4 class="card-title">Basic Table</h4>
+            <p class="card-description">
+                Add class <code>.table</code>
+            </p>
+            <a href="/admin/Item/Edite">New</a>
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th>itemname</th>
+                        <th>categoryname</th>
+                        <th>SalesPrice</th>
+                        <th>PurchacePrice</th>
+                      
+                    </tr>
+                </thead>
+                <tbody id="ItemArea">
+                    
+                      
+                    
+
+
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+@section Scripts {
+
+    <script src="~/modules/helper.js"></script>
+    <script src="~/modules/item.js"></script>
+    <script>
+        ClsItems.GetAll();
+
+    </script>
+}

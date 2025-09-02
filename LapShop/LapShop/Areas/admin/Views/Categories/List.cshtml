@@ -1,0 +1,41 @@
+﻿@model List<TbCategory>
+<div class="col-lg-6 grid-margin stretch-card">
+    <div class="card">
+        <div class="card-body">
+            <h4 class="card-title">Basic Table</h4>
+            <p class="card-description">
+                Add class <code>.table</code>
+            </p>
+            <a href="/admin/Categories/Edite">New</a>
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th>id</th>
+                        <th>categoryname</th>
+                       
+                        <th>Edite</th>
+                        <th>Delete</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var item in Model)
+                    {
+                        <tr>
+                            <td>@item.Categoryid</td>
+                            <td>@item.CategoryName</td>
+                           
+                            <td>
+                                <a asp-controller="Categories" asp-action="Edite" asp-route-id="@item.Categoryid">Edite</a>
+                            </td>
+                            <td>
+                                <a asp-controller="Categories" asp-action="Delete" asp-route-id="@item.Categoryid">Delete</a>
+                            </td>
+                        </tr>
+                    }
+                  
+                 
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
